@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2834B82D248C000700DABBA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2834B82C248C000700DABBA2 /* AppDelegate.swift */; };
+		2834B82F248C000700DABBA2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2834B82E248C000700DABBA2 /* SceneDelegate.swift */; };
+		2834B831248C000700DABBA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2834B830248C000700DABBA2 /* ViewController.swift */; };
+		2834B834248C000700DABBA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2834B832248C000700DABBA2 /* Main.storyboard */; };
+		2834B836248C000E00DABBA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2834B835248C000E00DABBA2 /* Assets.xcassets */; };
+		2834B839248C000E00DABBA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2834B837248C000E00DABBA2 /* LaunchScreen.storyboard */; };
+		2834B844248C000F00DABBA2 /* DoodleBlueTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2834B843248C000F00DABBA2 /* DoodleBlueTaskTests.swift */; };
+		2834B84F248C000F00DABBA2 /* DoodleBlueTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2834B84E248C000F00DABBA2 /* DoodleBlueTaskUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2834B840248C000F00DABBA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2834B821248C000700DABBA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2834B828248C000700DABBA2;
+			remoteInfo = DoodleBlueTask;
+		};
+		2834B84B248C000F00DABBA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2834B821248C000700DABBA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2834B828248C000700DABBA2;
+			remoteInfo = DoodleBlueTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2834B829248C000700DABBA2 /* DoodleBlueTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoodleBlueTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2834B82C248C000700DABBA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2834B82E248C000700DABBA2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2834B830248C000700DABBA2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2834B833248C000700DABBA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2834B835248C000E00DABBA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2834B838248C000E00DABBA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2834B83A248C000E00DABBA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2834B83F248C000F00DABBA2 /* DoodleBlueTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoodleBlueTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2834B843248C000F00DABBA2 /* DoodleBlueTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoodleBlueTaskTests.swift; sourceTree = "<group>"; };
+		2834B845248C000F00DABBA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2834B84A248C000F00DABBA2 /* DoodleBlueTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoodleBlueTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2834B84E248C000F00DABBA2 /* DoodleBlueTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoodleBlueTaskUITests.swift; sourceTree = "<group>"; };
+		2834B850248C000F00DABBA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2834B826248C000700DABBA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2834B83C248C000F00DABBA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2834B847248C000F00DABBA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2834B820248C000700DABBA2 = {
+			isa = PBXGroup;
+			children = (
+				2834B82B248C000700DABBA2 /* DoodleBlueTask */,
+				2834B842248C000F00DABBA2 /* DoodleBlueTaskTests */,
+				2834B84D248C000F00DABBA2 /* DoodleBlueTaskUITests */,
+				2834B82A248C000700DABBA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2834B82A248C000700DABBA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2834B829248C000700DABBA2 /* DoodleBlueTask.app */,
+				2834B83F248C000F00DABBA2 /* DoodleBlueTaskTests.xctest */,
+				2834B84A248C000F00DABBA2 /* DoodleBlueTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2834B82B248C000700DABBA2 /* DoodleBlueTask */ = {
+			isa = PBXGroup;
+			children = (
+				2834B82C248C000700DABBA2 /* AppDelegate.swift */,
+				2834B82E248C000700DABBA2 /* SceneDelegate.swift */,
+				2834B830248C000700DABBA2 /* ViewController.swift */,
+				2834B832248C000700DABBA2 /* Main.storyboard */,
+				2834B835248C000E00DABBA2 /* Assets.xcassets */,
+				2834B837248C000E00DABBA2 /* LaunchScreen.storyboard */,
+				2834B83A248C000E00DABBA2 /* Info.plist */,
+			);
+			path = DoodleBlueTask;
+			sourceTree = "<group>";
+		};
+		2834B842248C000F00DABBA2 /* DoodleBlueTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				2834B843248C000F00DABBA2 /* DoodleBlueTaskTests.swift */,
+				2834B845248C000F00DABBA2 /* Info.plist */,
+			);
+			path = DoodleBlueTaskTests;
+			sourceTree = "<group>";
+		};
+		2834B84D248C000F00DABBA2 /* DoodleBlueTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2834B84E248C000F00DABBA2 /* DoodleBlueTaskUITests.swift */,
+				2834B850248C000F00DABBA2 /* Info.plist */,
+			);
+			path = DoodleBlueTaskUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2834B828248C000700DABBA2 /* DoodleBlueTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2834B853248C000F00DABBA2 /* Build configuration list for PBXNativeTarget "DoodleBlueTask" */;
+			buildPhases = (
+				2834B825248C000700DABBA2 /* Sources */,
+				2834B826248C000700DABBA2 /* Frameworks */,
+				2834B827248C000700DABBA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoodleBlueTask;
+			productName = DoodleBlueTask;
+			productReference = 2834B829248C000700DABBA2 /* DoodleBlueTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2834B83E248C000F00DABBA2 /* DoodleBlueTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2834B856248C000F00DABBA2 /* Build configuration list for PBXNativeTarget "DoodleBlueTaskTests" */;
+			buildPhases = (
+				2834B83B248C000F00DABBA2 /* Sources */,
+				2834B83C248C000F00DABBA2 /* Frameworks */,
+				2834B83D248C000F00DABBA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2834B841248C000F00DABBA2 /* PBXTargetDependency */,
+			);
+			name = DoodleBlueTaskTests;
+			productName = DoodleBlueTaskTests;
+			productReference = 2834B83F248C000F00DABBA2 /* DoodleBlueTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2834B849248C000F00DABBA2 /* DoodleBlueTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2834B859248C000F00DABBA2 /* Build configuration list for PBXNativeTarget "DoodleBlueTaskUITests" */;
+			buildPhases = (
+				2834B846248C000F00DABBA2 /* Sources */,
+				2834B847248C000F00DABBA2 /* Frameworks */,
+				2834B848248C000F00DABBA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2834B84C248C000F00DABBA2 /* PBXTargetDependency */,
+			);
+			name = DoodleBlueTaskUITests;
+			productName = DoodleBlueTaskUITests;
+			productReference = 2834B84A248C000F00DABBA2 /* DoodleBlueTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2834B821248C000700DABBA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Nitu Warjurkar";
+				TargetAttributes = {
+					2834B828248C000700DABBA2 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					2834B83E248C000F00DABBA2 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 2834B828248C000700DABBA2;
+					};
+					2834B849248C000F00DABBA2 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 2834B828248C000700DABBA2;
+					};
+				};
+			};
+			buildConfigurationList = 2834B824248C000700DABBA2 /* Build configuration list for PBXProject "DoodleBlueTask" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2834B820248C000700DABBA2;
+			productRefGroup = 2834B82A248C000700DABBA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2834B828248C000700DABBA2 /* DoodleBlueTask */,
+				2834B83E248C000F00DABBA2 /* DoodleBlueTaskTests */,
+				2834B849248C000F00DABBA2 /* DoodleBlueTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2834B827248C000700DABBA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2834B839248C000E00DABBA2 /* LaunchScreen.storyboard in Resources */,
+				2834B836248C000E00DABBA2 /* Assets.xcassets in Resources */,
+				2834B834248C000700DABBA2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2834B83D248C000F00DABBA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2834B848248C000F00DABBA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2834B825248C000700DABBA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2834B831248C000700DABBA2 /* ViewController.swift in Sources */,
+				2834B82D248C000700DABBA2 /* AppDelegate.swift in Sources */,
+				2834B82F248C000700DABBA2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2834B83B248C000F00DABBA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2834B844248C000F00DABBA2 /* DoodleBlueTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2834B846248C000F00DABBA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2834B84F248C000F00DABBA2 /* DoodleBlueTaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2834B841248C000F00DABBA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2834B828248C000700DABBA2 /* DoodleBlueTask */;
+			targetProxy = 2834B840248C000F00DABBA2 /* PBXContainerItemProxy */;
+		};
+		2834B84C248C000F00DABBA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2834B828248C000700DABBA2 /* DoodleBlueTask */;
+			targetProxy = 2834B84B248C000F00DABBA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2834B832248C000700DABBA2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2834B833248C000700DABBA2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2834B837248C000E00DABBA2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2834B838248C000E00DABBA2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2834B851248C000F00DABBA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2834B852248C000F00DABBA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2834B854248C000F00DABBA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DoodleBlueTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.DoodleBlueTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2834B855248C000F00DABBA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DoodleBlueTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.DoodleBlueTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2834B857248C000F00DABBA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DoodleBlueTaskTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.DoodleBlueTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoodleBlueTask.app/DoodleBlueTask";
+			};
+			name = Debug;
+		};
+		2834B858248C000F00DABBA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DoodleBlueTaskTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.DoodleBlueTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoodleBlueTask.app/DoodleBlueTask";
+			};
+			name = Release;
+		};
+		2834B85A248C000F00DABBA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DoodleBlueTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.DoodleBlueTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DoodleBlueTask;
+			};
+			name = Debug;
+		};
+		2834B85B248C000F00DABBA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DoodleBlueTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.DoodleBlueTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DoodleBlueTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2834B824248C000700DABBA2 /* Build configuration list for PBXProject "DoodleBlueTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2834B851248C000F00DABBA2 /* Debug */,
+				2834B852248C000F00DABBA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2834B853248C000F00DABBA2 /* Build configuration list for PBXNativeTarget "DoodleBlueTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2834B854248C000F00DABBA2 /* Debug */,
+				2834B855248C000F00DABBA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2834B856248C000F00DABBA2 /* Build configuration list for PBXNativeTarget "DoodleBlueTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2834B857248C000F00DABBA2 /* Debug */,
+				2834B858248C000F00DABBA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2834B859248C000F00DABBA2 /* Build configuration list for PBXNativeTarget "DoodleBlueTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2834B85A248C000F00DABBA2 /* Debug */,
+				2834B85B248C000F00DABBA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2834B821248C000700DABBA2 /* Project object */;
+}
